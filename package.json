@@ -1,0 +1,22 @@
+{
+  "name": "timing",
+  "version": "1.0.0",
+  "bin": "./index.js",
+  "description": "a node.js cli that gets website resource metrics and writes them to a json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "performance",
+    "resources",
+    "metrics",
+    "javascript"
+  ],
+  "author": "ezra mizrahi mizrahi.ez@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "ora": "^4.0.4",
+    "puppeteer": "^3.0.1"
+  }
+}
